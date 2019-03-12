@@ -5,7 +5,7 @@ Library    SeleniumLibrary
 Suite Setup    Open Browser    ${URL}    chrome
 Suite Teardown    Close Browser
 *** Variable ***
-${URL}    http://raspalex:8080
+${URL}    http://localhost:8080
 *** Tasks ***
 LoginAndLogout
     Login
