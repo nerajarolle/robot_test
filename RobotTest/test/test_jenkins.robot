@@ -15,7 +15,7 @@ LoginAndLogout
 Login
     #Open Browser    ${URL}    chrome
     Set Browser Implicit Wait    3
-    Input Text    id=j_username    alex
+    Input Text    id=j_username    alessandro
     Input Password    name=j_password    suomi8000
     Input Text    name=J_password    ENTER
 
