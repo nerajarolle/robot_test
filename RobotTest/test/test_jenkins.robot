@@ -9,6 +9,7 @@ ${URL}    http://raspalex:8080
 *** Tasks ***
 LoginAndLogout
     Login
+    CheckTitle
     
 *** Keyword ***
 Login
@@ -17,4 +18,7 @@ Login
     Input Text    id=j_username    alex
     Input Password    name=j_password    suomi8000
     Input Text    name=J_password    ENTER
+
+CheckTitle
+    Title Should Be    Dashboard    
         
