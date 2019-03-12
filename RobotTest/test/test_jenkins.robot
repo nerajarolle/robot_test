@@ -2,7 +2,7 @@
 Documentation    Testing Jenkins login and logout
 ...    
 Library    SeleniumLibrary    
-Suite Setup    Open Browser    ${URL}
+Suite Setup    Open Browser    ${URL}    chrome
 Suite Teardown    Close Browser
 *** Variable ***
 ${URL}    http://raspalex:8080
@@ -13,7 +13,7 @@ LoginAndLogout
     
 *** Keyword ***
 Login
-    #Open Browser    ${URL}    firefox
+    #Open Browser    ${URL}    chrome
     Set Browser Implicit Wait    3
     Input Text    id=j_username    alex
     Input Password    name=j_password    suomi8000
