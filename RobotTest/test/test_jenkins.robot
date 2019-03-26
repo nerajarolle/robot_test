@@ -1,5 +1,5 @@
 *** Setting ***
-Documentation    Testing Jenkins login and logout plus some other stuff
+Documentation    Testing Jenkins login and logout plus some other stuff and more
 ...    
 Library    SeleniumLibrary    
 Suite Setup    Open Browser    ${URL}    chrome
@@ -10,6 +10,7 @@ ${URL}    http://localhost:8080
 LoginAndLogout
     Login
     CheckTitle
+
     
 *** Keyword ***
 Login
