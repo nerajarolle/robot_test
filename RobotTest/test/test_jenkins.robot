@@ -1,5 +1,5 @@
 *** Setting ***
-Documentation    Testing Jenkins login and logout
+Documentation    Testing Jenkins login and logout plus some other stuff
 ...    
 Library    SeleniumLibrary    
 Suite Setup    Open Browser    ${URL}    chrome
